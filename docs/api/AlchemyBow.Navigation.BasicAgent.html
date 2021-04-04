@@ -1,0 +1,846 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BasicAgent
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BasicAgent
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../articles/intro.html" title="Articles">Articles</a>
+                      </li>
+                      <li>
+                          <a href="../api/index.html" title="Api Documentation">Api Documentation</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AlchemyBow.Navigation.html" title="AlchemyBow.Navigation" class="">AlchemyBow.Navigation</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.AlchemyNavigationSystem.html" title="AlchemyNavigationSystem" class="">AlchemyNavigationSystem</a>
+                          </li>
+                          <li class="active">
+                            <a href="AlchemyBow.Navigation.BasicAgent.html" title="BasicAgent" class="active">BasicAgent</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.FacesHolder.html" title="FacesHolder" class="">FacesHolder</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.NavigationAct.html" title="NavigationAct" class="">NavigationAct</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.NavigationFaceWrapper.html" title="NavigationFaceWrapper" class="">NavigationFaceWrapper</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.NavigationInfo.html" title="NavigationInfo" class="">NavigationInfo</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.PathfindingRequest.html" title="PathfindingRequest" class="">PathfindingRequest</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.PathfindingRequest.PathType.html" title="PathfindingRequest.PathType" class="">PathfindingRequest.PathType</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.PathfindingRequest.Status.html" title="PathfindingRequest.Status" class="">PathfindingRequest.Status</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AlchemyBow.Navigation.BackgroundProcessing.html" title="AlchemyBow.Navigation.BackgroundProcessing" class="">AlchemyBow.Navigation.BackgroundProcessing</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.BackgroundProcessing.BackgroundProcessor.html" title="BackgroundProcessor" class="">BackgroundProcessor</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.BackgroundProcessing.BackgroundProcessor.States.html" title="BackgroundProcessor.States" class="">BackgroundProcessor.States</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.BackgroundProcessing.BuildingProcess.html" title="BuildingProcess" class="">BuildingProcess</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.BackgroundProcessing.IBackgroundCommand.html" title="IBackgroundCommand" class="">IBackgroundCommand</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.BackgroundProcessing.PathfindingProcess.html" title="PathfindingProcess" class="">PathfindingProcess</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.BackgroundProcessing.RegisterFaceCommand.html" title="RegisterFaceCommand" class="">RegisterFaceCommand</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.BackgroundProcessing.UnregisterFaceCommand.html" title="UnregisterFaceCommand" class="">UnregisterFaceCommand</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AlchemyBow.Navigation.Collections.html" title="AlchemyBow.Navigation.Collections" class="">AlchemyBow.Navigation.Collections</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Collections.OrderedSet-1.html" title="OrderedSet&lt;T&gt;" class="">OrderedSet&lt;T&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Collections.OrderedSetNode-1.html" title="OrderedSetNode&lt;T&gt;" class="">OrderedSetNode&lt;T&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Collections.OrderedSetRangeComparer-1.html" title="OrderedSetRangeComparer&lt;T&gt;" class="">OrderedSetRangeComparer&lt;T&gt;</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AlchemyBow.Navigation.DebugUnits.html" title="AlchemyBow.Navigation.DebugUnits" class="">AlchemyBow.Navigation.DebugUnits</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.DebugUnits.AlchemyNavigationSystemDebugUnit.html" title="AlchemyNavigationSystemDebugUnit" class="">AlchemyNavigationSystemDebugUnit</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.DebugUnits.CompositeSurfaceDrawer.html" title="CompositeSurfaceDrawer" class="">CompositeSurfaceDrawer</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.DebugUnits.GizmosSurfaceDrawer.html" title="GizmosSurfaceDrawer" class="">GizmosSurfaceDrawer</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.DebugUnits.ISurfaceDrawer.html" title="ISurfaceDrawer" class="">ISurfaceDrawer</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.DebugUnits.MinimalGizmosSurfaceDrawer.html" title="MinimalGizmosSurfaceDrawer" class="">MinimalGizmosSurfaceDrawer</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AlchemyBow.Navigation.HighLevel.html" title="AlchemyBow.Navigation.HighLevel" class="">AlchemyBow.Navigation.HighLevel</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.HighLevel.MeshBasedBake.html" title="MeshBasedBake" class="">MeshBasedBake</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.HighLevel.MeshBasedBakeGroup.html" title="MeshBasedBakeGroup" class="">MeshBasedBakeGroup</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.HighLevel.MeshBasedBakeSettings.html" title="MeshBasedBakeSettings" class="">MeshBasedBakeSettings</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.HighLevel.WorldMesh.html" title="WorldMesh" class="">WorldMesh</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AlchemyBow.Navigation.PropertyAttributes.html" title="AlchemyBow.Navigation.PropertyAttributes" class="">AlchemyBow.Navigation.PropertyAttributes</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.PropertyAttributes.AreaIndexAttribute.html" title="AreaIndexAttribute" class="">AreaIndexAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.PropertyAttributes.AreaMaskAttribute.html" title="AreaMaskAttribute" class="">AreaMaskAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.PropertyAttributes.LayerIndexAttribute.html" title="LayerIndexAttribute" class="">LayerIndexAttribute</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AlchemyBow.Navigation.Settings.html" title="AlchemyBow.Navigation.Settings" class="">AlchemyBow.Navigation.Settings</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Settings.AlchemyNavigationSettingsPreset.html" title="AlchemyNavigationSettingsPreset" class="">AlchemyNavigationSettingsPreset</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Settings.NavigationAreaSettings.html" title="NavigationAreaSettings" class="">NavigationAreaSettings</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Settings.NavigationLayerSettings.html" title="NavigationLayerSettings" class="">NavigationLayerSettings</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Settings.NavigationSettings.html" title="NavigationSettings" class="">NavigationSettings</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AlchemyBow.Navigation.Simple.html" title="AlchemyBow.Navigation.Simple" class="">AlchemyBow.Navigation.Simple</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Simple.SimpleAgent.html" title="SimpleAgent" class="">SimpleAgent</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AlchemyBow.Navigation.Simple.Elements.html" title="AlchemyBow.Navigation.Simple.Elements" class="">AlchemyBow.Navigation.Simple.Elements</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Simple.Elements.AvoidanceGroup.html" title="AvoidanceGroup" class="">AvoidanceGroup</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Simple.Elements.AvoidanceModifier.html" title="AvoidanceModifier" class="">AvoidanceModifier</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Simple.Elements.CachedFace.html" title="CachedFace" class="">CachedFace</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Simple.Elements.ISteeredBehaviour.html" title="ISteeredBehaviour" class="">ISteeredBehaviour</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Simple.Elements.MovementModifier.html" title="MovementModifier" class="">MovementModifier</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Simple.Elements.PathProgress.html" title="PathProgress" class="">PathProgress</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AlchemyBow.Navigation.Surfaces.html" title="AlchemyBow.Navigation.Surfaces" class="">AlchemyBow.Navigation.Surfaces</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Surfaces.Edge.html" title="Edge" class="">Edge</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Surfaces.Face.html" title="Face" class="">Face</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Surfaces.FacesByMagnitudeRangeComparer.html" title="FacesByMagnitudeRangeComparer" class="">FacesByMagnitudeRangeComparer</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Surfaces.NavigationSurface.html" title="NavigationSurface" class="">NavigationSurface</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Surfaces.SurfaceRaycastHit.html" title="SurfaceRaycastHit" class="">SurfaceRaycastHit</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Surfaces.Usage-1.html" title="Usage&lt;TUser&gt;" class="">Usage&lt;TUser&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Surfaces.UsageTrackingObject-1.html" title="UsageTrackingObject&lt;TUser&gt;" class="">UsageTrackingObject&lt;TUser&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Surfaces.Vertex.html" title="Vertex" class="">Vertex</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Surfaces.VertexByPositionComparer.html" title="VertexByPositionComparer" class="">VertexByPositionComparer</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AlchemyBow.Navigation.Surfaces.SafeAccess.html" title="AlchemyBow.Navigation.Surfaces.SafeAccess" class="">AlchemyBow.Navigation.Surfaces.SafeAccess</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Surfaces.SafeAccess.IImmutableFace.html" title="IImmutableFace" class="">IImmutableFace</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Surfaces.SafeAccess.SurfaceImmutableRaycastHit.html" title="SurfaceImmutableRaycastHit" class="">SurfaceImmutableRaycastHit</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="AlchemyBow.Navigation.Utilities.html" title="AlchemyBow.Navigation.Utilities" class="">AlchemyBow.Navigation.Utilities</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Utilities.ChannelUnwrapper.html" title="ChannelUnwrapper" class="">ChannelUnwrapper</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Utilities.FaceAStar.html" title="FaceAStar" class="">FaceAStar</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Utilities.FaceStarUnit.html" title="FaceStarUnit" class="">FaceStarUnit</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Utilities.Funnel.html" title="Funnel" class="">Funnel</a>
+                          </li>
+                          <li class="">
+                            <a href="AlchemyBow.Navigation.Utilities.ICommand.html" title="ICommand" class="">ICommand</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AlchemyBow.Navigation.BasicAgent">
+  
+  
+  <h1 id="AlchemyBow_Navigation_BasicAgent" data-uid="AlchemyBow.Navigation.BasicAgent" class="text-break">Class BasicAgent
+  </h1>
+  <div class="markdown level0 summary"><p>Describes an abstract unit to handle pathfinding requests and communice with <code>AlchemyNavigationSystem</code>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">BasicAgent</span></div>
+      <div class="level6"><a class="xref" href="AlchemyBow.Navigation.Simple.SimpleAgent.html">SimpleAgent</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AlchemyBow.Navigation.html">AlchemyBow.Navigation</a></h6>
+  <h6><strong>Assembly</strong>: AlchemyBow.Navigation.dll</h6>
+  <h5 id="AlchemyBow_Navigation_BasicAgent_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class BasicAgent : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/new/master/apiSpec/new?filename=AlchemyBow_Navigation_BasicAgent_AreaMask.md&amp;value=---%0Auid%3A%20AlchemyBow.Navigation.BasicAgent.AreaMask%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/blob/master/AlchemyNavigation/Assets/package/Runtime/BasicAgent.cs/#L70">View Source</a>
+  </span>
+  <a id="AlchemyBow_Navigation_BasicAgent_AreaMask_" data-uid="AlchemyBow.Navigation.BasicAgent.AreaMask*"></a>
+  <h4 id="AlchemyBow_Navigation_BasicAgent_AreaMask" data-uid="AlchemyBow.Navigation.BasicAgent.AreaMask">AreaMask</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the area mask of the agent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AreaMask { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The area mask of the agent.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AlchemyBow_Navigation_BasicAgent_AreaMask_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If set value is changed, <code>OnAreaMaskChanged()</code> is called.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/new/master/apiSpec/new?filename=AlchemyBow_Navigation_BasicAgent_HasDestination.md&amp;value=---%0Auid%3A%20AlchemyBow.Navigation.BasicAgent.HasDestination%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/blob/master/AlchemyNavigation/Assets/package/Runtime/BasicAgent.cs/#L33">View Source</a>
+  </span>
+  <a id="AlchemyBow_Navigation_BasicAgent_HasDestination_" data-uid="AlchemyBow.Navigation.BasicAgent.HasDestination*"></a>
+  <h4 id="AlchemyBow_Navigation_BasicAgent_HasDestination" data-uid="AlchemyBow.Navigation.BasicAgent.HasDestination">HasDestination</h4>
+  <div class="markdown level1 summary"><p>Determines whether the agent has destination.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDestination { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the agent has destination; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/new/master/apiSpec/new?filename=AlchemyBow_Navigation_BasicAgent_HasPendingRequests.md&amp;value=---%0Auid%3A%20AlchemyBow.Navigation.BasicAgent.HasPendingRequests%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/blob/master/AlchemyNavigation/Assets/package/Runtime/BasicAgent.cs/#L39">View Source</a>
+  </span>
+  <a id="AlchemyBow_Navigation_BasicAgent_HasPendingRequests_" data-uid="AlchemyBow.Navigation.BasicAgent.HasPendingRequests*"></a>
+  <h4 id="AlchemyBow_Navigation_BasicAgent_HasPendingRequests" data-uid="AlchemyBow.Navigation.BasicAgent.HasPendingRequests">HasPendingRequests</h4>
+  <div class="markdown level1 summary"><p>Determines whether the agent has pending requests.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool HasPendingRequests { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the agent pending requests; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/new/master/apiSpec/new?filename=AlchemyBow_Navigation_BasicAgent_IsPathWalking.md&amp;value=---%0Auid%3A%20AlchemyBow.Navigation.BasicAgent.IsPathWalking%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/blob/master/AlchemyNavigation/Assets/package/Runtime/BasicAgent.cs/#L45">View Source</a>
+  </span>
+  <a id="AlchemyBow_Navigation_BasicAgent_IsPathWalking_" data-uid="AlchemyBow.Navigation.BasicAgent.IsPathWalking*"></a>
+  <h4 id="AlchemyBow_Navigation_BasicAgent_IsPathWalking" data-uid="AlchemyBow.Navigation.BasicAgent.IsPathWalking">IsPathWalking</h4>
+  <div class="markdown level1 summary"><p>Determines whether the agent is walking along the path.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract bool IsPathWalking { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the agent is walking along the path.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/new/master/apiSpec/new?filename=AlchemyBow_Navigation_BasicAgent_Layer.md&amp;value=---%0Auid%3A%20AlchemyBow.Navigation.BasicAgent.Layer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/blob/master/AlchemyNavigation/Assets/package/Runtime/BasicAgent.cs/#L52">View Source</a>
+  </span>
+  <a id="AlchemyBow_Navigation_BasicAgent_Layer_" data-uid="AlchemyBow.Navigation.BasicAgent.Layer*"></a>
+  <h4 id="AlchemyBow_Navigation_BasicAgent_Layer" data-uid="AlchemyBow.Navigation.BasicAgent.Layer">Layer</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the target layer of the agent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Layer { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The target layer of the agent.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="AlchemyBow_Navigation_BasicAgent_Layer_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If set value is changed, <code>OnLayerChanged()</code> is called.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/new/master/apiSpec/new?filename=AlchemyBow_Navigation_BasicAgent_Radius.md&amp;value=---%0Auid%3A%20AlchemyBow.Navigation.BasicAgent.Radius%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/blob/master/AlchemyNavigation/Assets/package/Runtime/BasicAgent.cs/#L27">View Source</a>
+  </span>
+  <a id="AlchemyBow_Navigation_BasicAgent_Radius_" data-uid="AlchemyBow.Navigation.BasicAgent.Radius*"></a>
+  <h4 id="AlchemyBow_Navigation_BasicAgent_Radius" data-uid="AlchemyBow.Navigation.BasicAgent.Radius">Radius</h4>
+  <div class="markdown level1 summary"><p>Defines how close the agent center can get to edges of the navigation mesh.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Radius { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>The radius of the agent.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/new/master/apiSpec/new?filename=AlchemyBow_Navigation_BasicAgent_CancelAllRequests.md&amp;value=---%0Auid%3A%20AlchemyBow.Navigation.BasicAgent.CancelAllRequests%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/blob/master/AlchemyNavigation/Assets/package/Runtime/BasicAgent.cs/#L130">View Source</a>
+  </span>
+  <a id="AlchemyBow_Navigation_BasicAgent_CancelAllRequests_" data-uid="AlchemyBow.Navigation.BasicAgent.CancelAllRequests*"></a>
+  <h4 id="AlchemyBow_Navigation_BasicAgent_CancelAllRequests" data-uid="AlchemyBow.Navigation.BasicAgent.CancelAllRequests">CancelAllRequests()</h4>
+  <div class="markdown level1 summary"><p>Cancels all requested path calculations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CancelAllRequests()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/new/master/apiSpec/new?filename=AlchemyBow_Navigation_BasicAgent_OnAgentDisable.md&amp;value=---%0Auid%3A%20AlchemyBow.Navigation.BasicAgent.OnAgentDisable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/blob/master/AlchemyNavigation/Assets/package/Runtime/BasicAgent.cs/#L182">View Source</a>
+  </span>
+  <a id="AlchemyBow_Navigation_BasicAgent_OnAgentDisable_" data-uid="AlchemyBow.Navigation.BasicAgent.OnAgentDisable*"></a>
+  <h4 id="AlchemyBow_Navigation_BasicAgent_OnAgentDisable" data-uid="AlchemyBow.Navigation.BasicAgent.OnAgentDisable">OnAgentDisable()</h4>
+  <div class="markdown level1 summary"><p>Called when the agent becomes disabled or inactive.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void OnAgentDisable()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/new/master/apiSpec/new?filename=AlchemyBow_Navigation_BasicAgent_OnAgentEnable.md&amp;value=---%0Auid%3A%20AlchemyBow.Navigation.BasicAgent.OnAgentEnable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/blob/master/AlchemyNavigation/Assets/package/Runtime/BasicAgent.cs/#L177">View Source</a>
+  </span>
+  <a id="AlchemyBow_Navigation_BasicAgent_OnAgentEnable_" data-uid="AlchemyBow.Navigation.BasicAgent.OnAgentEnable*"></a>
+  <h4 id="AlchemyBow_Navigation_BasicAgent_OnAgentEnable" data-uid="AlchemyBow.Navigation.BasicAgent.OnAgentEnable">OnAgentEnable()</h4>
+  <div class="markdown level1 summary"><p>Called when the agent becomes enabled and active.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void OnAgentEnable()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/new/master/apiSpec/new?filename=AlchemyBow_Navigation_BasicAgent_OnAreaMaskChanged.md&amp;value=---%0Auid%3A%20AlchemyBow.Navigation.BasicAgent.OnAreaMaskChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/blob/master/AlchemyNavigation/Assets/package/Runtime/BasicAgent.cs/#L172">View Source</a>
+  </span>
+  <a id="AlchemyBow_Navigation_BasicAgent_OnAreaMaskChanged_" data-uid="AlchemyBow.Navigation.BasicAgent.OnAreaMaskChanged*"></a>
+  <h4 id="AlchemyBow_Navigation_BasicAgent_OnAreaMaskChanged" data-uid="AlchemyBow.Navigation.BasicAgent.OnAreaMaskChanged">OnAreaMaskChanged()</h4>
+  <div class="markdown level1 summary"><p>Called when the area mask property is changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void OnAreaMaskChanged()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/new/master/apiSpec/new?filename=AlchemyBow_Navigation_BasicAgent_OnConnectionWithSystemLost.md&amp;value=---%0Auid%3A%20AlchemyBow.Navigation.BasicAgent.OnConnectionWithSystemLost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/blob/master/AlchemyNavigation/Assets/package/Runtime/BasicAgent.cs/#L208">View Source</a>
+  </span>
+  <a id="AlchemyBow_Navigation_BasicAgent_OnConnectionWithSystemLost_" data-uid="AlchemyBow.Navigation.BasicAgent.OnConnectionWithSystemLost*"></a>
+  <h4 id="AlchemyBow_Navigation_BasicAgent_OnConnectionWithSystemLost" data-uid="AlchemyBow.Navigation.BasicAgent.OnConnectionWithSystemLost">OnConnectionWithSystemLost()</h4>
+  <div class="markdown level1 summary"><p>Called when the system is deinitialized.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnConnectionWithSystemLost()</code></pre>
+  </div>
+  <h5 id="AlchemyBow_Navigation_BasicAgent_OnConnectionWithSystemLost_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>By default, sets the agent's game object inactive.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/new/master/apiSpec/new?filename=AlchemyBow_Navigation_BasicAgent_OnLayerChanged.md&amp;value=---%0Auid%3A%20AlchemyBow.Navigation.BasicAgent.OnLayerChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/blob/master/AlchemyNavigation/Assets/package/Runtime/BasicAgent.cs/#L167">View Source</a>
+  </span>
+  <a id="AlchemyBow_Navigation_BasicAgent_OnLayerChanged_" data-uid="AlchemyBow.Navigation.BasicAgent.OnLayerChanged*"></a>
+  <h4 id="AlchemyBow_Navigation_BasicAgent_OnLayerChanged" data-uid="AlchemyBow.Navigation.BasicAgent.OnLayerChanged">OnLayerChanged()</h4>
+  <div class="markdown level1 summary"><p>Called when the layer property is changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void OnLayerChanged()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/new/master/apiSpec/new?filename=AlchemyBow_Navigation_BasicAgent_OnPath_UnityEngine_Vector3___AlchemyBow_Navigation_Surfaces_SafeAccess_IImmutableFace___.md&amp;value=---%0Auid%3A%20AlchemyBow.Navigation.BasicAgent.OnPath(UnityEngine.Vector3%5B%5D%2CAlchemyBow.Navigation.Surfaces.SafeAccess.IImmutableFace%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/blob/master/AlchemyNavigation/Assets/package/Runtime/BasicAgent.cs/#L189">View Source</a>
+  </span>
+  <a id="AlchemyBow_Navigation_BasicAgent_OnPath_" data-uid="AlchemyBow.Navigation.BasicAgent.OnPath*"></a>
+  <h4 id="AlchemyBow_Navigation_BasicAgent_OnPath_UnityEngine_Vector3___AlchemyBow_Navigation_Surfaces_SafeAccess_IImmutableFace___" data-uid="AlchemyBow.Navigation.BasicAgent.OnPath(UnityEngine.Vector3[],AlchemyBow.Navigation.Surfaces.SafeAccess.IImmutableFace[])">OnPath(Vector3[], IImmutableFace[])</h4>
+  <div class="markdown level1 summary"><p>Called when one of the requested paths is calculated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void OnPath(Vector3[] path, IImmutableFace[] facePath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span>[]</td>
+        <td><span class="parametername">path</span></td>
+        <td><p>The calculated path consisting of waypoints.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AlchemyBow.Navigation.Surfaces.SafeAccess.IImmutableFace.html">IImmutableFace</a>[]</td>
+        <td><span class="parametername">facePath</span></td>
+        <td><p>The calculated path consisting of faces.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/new/master/apiSpec/new?filename=AlchemyBow_Navigation_BasicAgent_OnRequestsCanceled.md&amp;value=---%0Auid%3A%20AlchemyBow.Navigation.BasicAgent.OnRequestsCanceled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/blob/master/AlchemyNavigation/Assets/package/Runtime/BasicAgent.cs/#L194">View Source</a>
+  </span>
+  <a id="AlchemyBow_Navigation_BasicAgent_OnRequestsCanceled_" data-uid="AlchemyBow.Navigation.BasicAgent.OnRequestsCanceled*"></a>
+  <h4 id="AlchemyBow_Navigation_BasicAgent_OnRequestsCanceled" data-uid="AlchemyBow.Navigation.BasicAgent.OnRequestsCanceled">OnRequestsCanceled()</h4>
+  <div class="markdown level1 summary"><p>Called when requests are canceled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void OnRequestsCanceled()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/new/master/apiSpec/new?filename=AlchemyBow_Navigation_BasicAgent_OnSurfaceAvailable_AlchemyBow_Navigation_PathfindingRequest_.md&amp;value=---%0Auid%3A%20AlchemyBow.Navigation.BasicAgent.OnSurfaceAvailable(AlchemyBow.Navigation.PathfindingRequest)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/blob/master/AlchemyNavigation/Assets/package/Runtime/BasicAgent.cs/#L200">View Source</a>
+  </span>
+  <a id="AlchemyBow_Navigation_BasicAgent_OnSurfaceAvailable_" data-uid="AlchemyBow.Navigation.BasicAgent.OnSurfaceAvailable*"></a>
+  <h4 id="AlchemyBow_Navigation_BasicAgent_OnSurfaceAvailable_AlchemyBow_Navigation_PathfindingRequest_" data-uid="AlchemyBow.Navigation.BasicAgent.OnSurfaceAvailable(AlchemyBow.Navigation.PathfindingRequest)">OnSurfaceAvailable(PathfindingRequest)</h4>
+  <div class="markdown level1 summary"><p>Called when the surface becomes available.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void OnSurfaceAvailable(PathfindingRequest delayedRequest)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AlchemyBow.Navigation.PathfindingRequest.html">PathfindingRequest</a></td>
+        <td><span class="parametername">delayedRequest</span></td>
+        <td><p>A request that was delayed until surface becomes available.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/new/master/apiSpec/new?filename=AlchemyBow_Navigation_BasicAgent_RequestPath_UnityEngine_Vector3_UnityEngine_Vector3_AlchemyBow_Navigation_PathfindingRequest_PathType_AlchemyBow_Navigation_Surfaces_SafeAccess_IImmutableFace_.md&amp;value=---%0Auid%3A%20AlchemyBow.Navigation.BasicAgent.RequestPath(UnityEngine.Vector3%2CUnityEngine.Vector3%2CAlchemyBow.Navigation.PathfindingRequest.PathType%2CAlchemyBow.Navigation.Surfaces.SafeAccess.IImmutableFace)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/kempnymaciej/AlchemyNavigation/blob/master/AlchemyNavigation/Assets/package/Runtime/BasicAgent.cs/#L111">View Source</a>
+  </span>
+  <a id="AlchemyBow_Navigation_BasicAgent_RequestPath_" data-uid="AlchemyBow.Navigation.BasicAgent.RequestPath*"></a>
+  <h4 id="AlchemyBow_Navigation_BasicAgent_RequestPath_UnityEngine_Vector3_UnityEngine_Vector3_AlchemyBow_Navigation_PathfindingRequest_PathType_AlchemyBow_Navigation_Surfaces_SafeAccess_IImmutableFace_" data-uid="AlchemyBow.Navigation.BasicAgent.RequestPath(UnityEngine.Vector3,UnityEngine.Vector3,AlchemyBow.Navigation.PathfindingRequest.PathType,AlchemyBow.Navigation.Surfaces.SafeAccess.IImmutableFace)">RequestPath(Vector3, Vector3, PathfindingRequest.PathType, IImmutableFace)</h4>
+  <div class="markdown level1 summary"><p>Schedules the path calculation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void RequestPath(Vector3 start, Vector3 destination, PathfindingRequest.PathType pathType, IImmutableFace startFace = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>The start point of a path.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">destination</span></td>
+        <td><p>The end point of a path.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AlchemyBow.Navigation.PathfindingRequest.PathType.html">PathfindingRequest.PathType</a></td>
+        <td><span class="parametername">pathType</span></td>
+        <td><p>The target type of a path.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AlchemyBow.Navigation.Surfaces.SafeAccess.IImmutableFace.html">IImmutableFace</a></td>
+        <td><span class="parametername">startFace</span></td>
+        <td><p>(optional) The start face of the path.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/kempnymaciej/AlchemyNavigation/new/master/apiSpec/new?filename=AlchemyBow_Navigation_BasicAgent.md&amp;value=---%0Auid%3A%20AlchemyBow.Navigation.BasicAgent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/kempnymaciej/AlchemyNavigation/blob/master/AlchemyNavigation/Assets/package/Runtime/BasicAgent.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

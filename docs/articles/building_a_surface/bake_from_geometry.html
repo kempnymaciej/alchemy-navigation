@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>AlchemyNavigation | Bake from geometry </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="AlchemyNavigation | Bake from geometry ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc">
+    <meta property="docfx:tocrel" content="../toc">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../../articles/intro.html" title="Articles">Articles</a>
+                      </li>
+                      <li>
+                          <a href="../../api/index.html" title="Api Documentation">Api Documentation</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <a href="../intro.html" title="Introduction to AlchemyNavigation" class="">Introduction to AlchemyNavigation</a>
+                    </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="../main_components.html" title="Main components" class="">Main components</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="../main_components/alchemy_navigation_system.html" title="Alchemy Navigation System" class="">Alchemy Navigation System</a>
+                          </li>
+                          <li class="">
+                            <a href="../main_components/faces_holder.html" title="Faces Holder" class="">Faces Holder</a>
+                          </li>
+                          <li class="">
+                            <a href="../main_components/simple_agent.html" title="Simple Agent" class="">Simple Agent</a>
+                          </li>
+                          <li class="">
+                            <a href="../main_components/movement_modifier.html" title="Movement Modifier" class="">Movement Modifier</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="../building_a_surface.html" title="Building a surface" class="">Building a surface</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="../building_a_surface/how_it_works.html" title="How it works" class="">How it works</a>
+                          </li>
+                          <li class="active">
+                            <a href="../building_a_surface/bake_from_geometry.html" title="Bake from geometry" class="active">Bake from geometry</a>
+                          </li>
+                          <li class="">
+                            <a href="../building_a_surface/debugging_holders.html" title="Debugging holders" class="">Debugging holders</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="bake-from-geometry">Bake from geometry</h1>
+
+<p>The <code>BakeFromMesh</code> is a high level tool that allows you to create <a class="xref" href="../../api/AlchemyBow.Navigation.FacesHolder.html">face holders</a> based on the scene geometry.
+To use it, click Window-&gt;AlchemyNavigation-&gt;<strong>BakeFromMesh</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Window Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Connection Radius (Settings)</td>
+<td>The maximum distance between vertices to be counted as one vertex.</td>
+</tr>
+<tr>
+<td>Upwards (Settings)</td>
+<td>The upwards direction.</td>
+</tr>
+<tr>
+<td>Max Slope (Settings)</td>
+<td>Maximum angle between <code>Upwards</code> and the normal of face.</td>
+</tr>
+<tr>
+<td>Result Holder</td>
+<td>The parent object for the result face holders.</td>
+</tr>
+<tr>
+<td>Result Position</td>
+<td>Specifies the way the results are placed.</td>
+</tr>
+<tr>
+<td>Mesh Filters</td>
+<td>An array of the geometry sources.</td>
+</tr>
+</tbody>
+</table>
+<p>As the results are baked you can modify them with standard features of the <a class="xref" href="../../api/AlchemyBow.Navigation.FacesHolder.html">FaceHolder</a> component.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>You can also <code>BakeFromMesh</code> in scripts - <a class="xref" href="../../api/AlchemyBow.Navigation.HighLevel.html">see</a>.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/kempnymaciej/AlchemyNavigation/blob/master/docfx_project/articles/building_a_surface/bake_from_geometry.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
