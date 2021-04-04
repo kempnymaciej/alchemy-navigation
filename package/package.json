@@ -1,0 +1,16 @@
+{
+    "name": "com.alchemybow.alchemy-navigation",
+    "version": "0.1.0",
+    "displayName": "AlchemyNavigation",
+    "description": "This package implements a 3D navigation system.",
+    "unity": "2018.3",
+    "keywords": [
+      "navigation",
+      "alchemy",
+      "alchemynavigation"
+    ],
+    "author": {
+      "name": "Maciej Kempny",
+      "url": "https://github.com/kempnymaciej"
+    }
+}
