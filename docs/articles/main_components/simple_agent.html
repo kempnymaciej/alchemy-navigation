@@ -1,0 +1,251 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>AlchemyNavigation | Simple Agent </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="AlchemyNavigation | Simple Agent ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc">
+    <meta property="docfx:tocrel" content="../toc">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../../articles/intro.html" title="Articles">Articles</a>
+                      </li>
+                      <li>
+                          <a href="../../api/index.html" title="Api Documentation">Api Documentation</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <a href="../intro.html" title="Introduction to AlchemyNavigation" class="">Introduction to AlchemyNavigation</a>
+                    </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="../main_components.html" title="Main components" class="">Main components</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="../main_components/alchemy_navigation_system.html" title="Alchemy Navigation System" class="">Alchemy Navigation System</a>
+                          </li>
+                          <li class="">
+                            <a href="../main_components/faces_holder.html" title="Faces Holder" class="">Faces Holder</a>
+                          </li>
+                          <li class="active">
+                            <a href="../main_components/simple_agent.html" title="Simple Agent" class="active">Simple Agent</a>
+                          </li>
+                          <li class="">
+                            <a href="../main_components/movement_modifier.html" title="Movement Modifier" class="">Movement Modifier</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="../building_a_surface.html" title="Building a surface" class="">Building a surface</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="../building_a_surface/how_it_works.html" title="How it works" class="">How it works</a>
+                          </li>
+                          <li class="">
+                            <a href="../building_a_surface/bake_from_geometry.html" title="Bake from geometry" class="">Bake from geometry</a>
+                          </li>
+                          <li class="">
+                            <a href="../building_a_surface/debugging_holders.html" title="Debugging holders" class="">Debugging holders</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="simple-agent">Simple Agent</h1>
+
+<p>The <a class="xref" href="../../api/AlchemyBow.Navigation.Simple.SimpleAgent.html">SimpleAgent</a> is a component that allows you to create characters that intelligently move along navigation meshes to their destinations.</p>
+<p>To begin attach the <a class="xref" href="../../api/AlchemyBow.Navigation.Simple.SimpleAgent.html">SimpleAgent</a> component to the game object.</p>
+<table>
+<thead>
+<tr>
+<th>Inspector Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Layer</td>
+<td>Defines which layer the agent belong to.</td>
+</tr>
+<tr>
+<td>Area Mask</td>
+<td>Specifies on which areas the agent can move.</td>
+</tr>
+<tr>
+<td>Radius</td>
+<td>Defines how close the agent center can get to edges of the navigation mesh.</td>
+</tr>
+<tr>
+<td>Stopping Distance</td>
+<td>The minimum distance to the target point to stop the movement.</td>
+</tr>
+<tr>
+<td>Max Velocity</td>
+<td>The maximum velocity magnitude. (How fast the agent can move.)</td>
+</tr>
+<tr>
+<td>Max Acceleration</td>
+<td>The maximum acceleration magnitude. (How fast the agent can gain speed.)</td>
+</tr>
+<tr>
+<td>Rotation Speed</td>
+<td>How fast the agent can rotate.</td>
+</tr>
+<tr>
+<td>Draw Gizmos</td>
+<td>If <code>true</code>, gizmos is drawn.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="implementation-example">Implementation example</h2>
+<p>As an example, consider a behavior where the agent is patrolling between two points. The code could look like this:</p>
+<pre><code class="lang-csharp" name="Main">using AlchemyBow.Navigation.Simple;
+using UnityEngine;
+
+public class PatrolBehaviourExample : MonoBehaviour
+{
+    [SerializeField]
+    private Vector3 checkpointA = Vector3.zero;
+    [SerializeField]
+    private Vector3 checkpointB = Vector3.zero;
+
+    [SerializeField]
+    private SimpleAgent agent = null;
+
+    private bool direction;
+
+    private void OnEnable()
+    {
+        agent.OnDestinationReached += OnCheckpoint;
+        OnCheckpoint();
+    }
+
+    private void OnDisable()
+    {
+        agent.OnDestinationReached -= OnCheckpoint;
+        agent.CancelAllRequests();
+    }
+
+    private void OnCheckpoint()
+    {
+        direction = !direction;
+        agent.SetDestination(direction ? checkpointA : checkpointB, false);
+    }
+}
+</code></pre><h2 id="you-should-know">You should know</h2>
+<ul>
+<li>The <code>SimpleAgent</code> does not provide avoidance behaviour it self. It is done with the help of <a href="movement_modifier.html">movement modifiers</a>.</li>
+<li>You can create custom agents - see <a class="xref" href="../../api/AlchemyBow.Navigation.BasicAgent.html">BasicAgent</a>. However, in most cases the <code>SimpleAgent</code> is what you are looking for.</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/kempnymaciej/AlchemyNavigation/blob/master/docfx_project/articles/main_components/simple_agent.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

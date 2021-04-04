@@ -1,0 +1,17 @@
+{
+    "name": "AlchemyBow.Navigation.Editor",
+    "references": [
+        "GUID:c92063e7c44a11d4db60fbf5dbdea76f"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,1155 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/Dev/GitHubRepositories/AlchemyNavigation/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.AlchemyNavigationSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.AlchemyNavigationSystem.html",
+          "hash": "aNnLL9sN0hMbkUjt1mUXIQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.BackgroundProcessing.BackgroundProcessor.States.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.BackgroundProcessing.BackgroundProcessor.States.html",
+          "hash": "LzOUr7uhjjTAsKnFU5Bc+w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.BackgroundProcessing.BackgroundProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.BackgroundProcessing.BackgroundProcessor.html",
+          "hash": "w2QI37pHTvssIGWC8trwbQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.BackgroundProcessing.BuildingProcess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.BackgroundProcessing.BuildingProcess.html",
+          "hash": "bUzUdHPJVR6sTtBzyx643A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.BackgroundProcessing.IBackgroundCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.BackgroundProcessing.IBackgroundCommand.html",
+          "hash": "H6xAYGsP14mjaDbjL7Eesg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.BackgroundProcessing.PathfindingProcess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.BackgroundProcessing.PathfindingProcess.html",
+          "hash": "dqgps8Pf4f39a9sU6CwHLA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.BackgroundProcessing.RegisterFaceCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.BackgroundProcessing.RegisterFaceCommand.html",
+          "hash": "UAuEHKI+NrOznNqDQ+WNMg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.BackgroundProcessing.UnregisterFaceCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.BackgroundProcessing.UnregisterFaceCommand.html",
+          "hash": "HrQdq7yRxZM5VU6qWxz69g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.BackgroundProcessing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.BackgroundProcessing.html",
+          "hash": "CqIMxO3p3V+aSdJERO1liw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.BasicAgent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.BasicAgent.html",
+          "hash": "Y3wHuGnenJ7zBN8ygOtZ4A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Collections.OrderedSet-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Collections.OrderedSet-1.html",
+          "hash": "XBb37+cfX5i83JnoF4q7fQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Collections.OrderedSetNode-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Collections.OrderedSetNode-1.html",
+          "hash": "VtLr+bmfOGk5KhM47uaV0g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Collections.OrderedSetRangeComparer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Collections.OrderedSetRangeComparer-1.html",
+          "hash": "9vnY9qQCjVouKGLs6X/SAw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Collections.html",
+          "hash": "IzMVfl1yQJdxXDIqrjbr5g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.DebugUnits.AlchemyNavigationSystemDebugUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.DebugUnits.AlchemyNavigationSystemDebugUnit.html",
+          "hash": "zUaD+2NmcjVzk6Mew+PdCw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.DebugUnits.CompositeSurfaceDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.DebugUnits.CompositeSurfaceDrawer.html",
+          "hash": "6fVYHrfadFYU/Gj0/n9Skg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.DebugUnits.GizmosSurfaceDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.DebugUnits.GizmosSurfaceDrawer.html",
+          "hash": "+Oj0w4vqGL2ToGXU3qm++Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.DebugUnits.ISurfaceDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.DebugUnits.ISurfaceDrawer.html",
+          "hash": "mPQmvBeW1yckzbGvaykcNA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.DebugUnits.MinimalGizmosSurfaceDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.DebugUnits.MinimalGizmosSurfaceDrawer.html",
+          "hash": "+HpDrA/Avz8czkfxKQ0bAQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.DebugUnits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.DebugUnits.html",
+          "hash": "uMvHUUx9s7yTthsLN6/+JA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.FacesHolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.FacesHolder.html",
+          "hash": "axOmo40XrNhh/NTivizVVQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.HighLevel.MeshBasedBake.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.HighLevel.MeshBasedBake.html",
+          "hash": "SzCukH5+nSlh8Ty3pYkE/g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.HighLevel.MeshBasedBakeGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.HighLevel.MeshBasedBakeGroup.html",
+          "hash": "q0DpZdHJR3uxMjpZh9LGXg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.HighLevel.MeshBasedBakeSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.HighLevel.MeshBasedBakeSettings.html",
+          "hash": "x26hETPO4JyIAbKAH3NMhQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.HighLevel.WorldMesh.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.HighLevel.WorldMesh.html",
+          "hash": "dHHZw1pRzFiV9GzCMxg5ag=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.HighLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.HighLevel.html",
+          "hash": "OqvbW0F2FK1F/Pb12imWmw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.NavigationAct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.NavigationAct.html",
+          "hash": "IF8tkp1CdEUdKpqz6uJ5fg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.NavigationFaceWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.NavigationFaceWrapper.html",
+          "hash": "dNMAdG+m88pyLl6ZgeY8fw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.NavigationInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.NavigationInfo.html",
+          "hash": "Fxe0C0JQOf7+OWMrMSPCOQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.PathfindingRequest.PathType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.PathfindingRequest.PathType.html",
+          "hash": "4h+A2ZVMblWAW6BwdEuOsw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.PathfindingRequest.Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.PathfindingRequest.Status.html",
+          "hash": "UVuFLDHmlTQPhAItTjgqDQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.PathfindingRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.PathfindingRequest.html",
+          "hash": "iluqBUc2yioQ5Lu9K24lkw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.PropertyAttributes.AreaIndexAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.PropertyAttributes.AreaIndexAttribute.html",
+          "hash": "t+5QdAm/NN1eUi2Q+tiKig=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.PropertyAttributes.AreaMaskAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.PropertyAttributes.AreaMaskAttribute.html",
+          "hash": "TSNkpkecoJnWQpv6pnR/Rw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.PropertyAttributes.LayerIndexAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.PropertyAttributes.LayerIndexAttribute.html",
+          "hash": "gWY1CgxvAsoMtazWmGgedw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.PropertyAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.PropertyAttributes.html",
+          "hash": "kr+q244//iwxStX1uFtE/A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Settings.AlchemyNavigationSettingsPreset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Settings.AlchemyNavigationSettingsPreset.html",
+          "hash": "VIcamEBOk8kWrssOHbYFZg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Settings.NavigationAreaSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Settings.NavigationAreaSettings.html",
+          "hash": "zjL8zP/bWTKZ1NcmvCkskA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Settings.NavigationLayerSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Settings.NavigationLayerSettings.html",
+          "hash": "1vuY6G29cSLLGDz+UB87rQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Settings.NavigationSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Settings.NavigationSettings.html",
+          "hash": "D9Uki/nDjIkc1lqfjhnxsQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Settings.html",
+          "hash": "1VjIUCZ+MsB9zSLgIuUYyw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Simple.Elements.AvoidanceGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Simple.Elements.AvoidanceGroup.html",
+          "hash": "NcEB+W2xBBydbvfLwFCqPg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Simple.Elements.AvoidanceModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Simple.Elements.AvoidanceModifier.html",
+          "hash": "9UwPGBFJ4SVe6FrgMz5oEA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Simple.Elements.CachedFace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Simple.Elements.CachedFace.html",
+          "hash": "kh1Rhl8hECuDADmxPz7jbg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Simple.Elements.ISteeredBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Simple.Elements.ISteeredBehaviour.html",
+          "hash": "VzbofJQzifowM/L2Oh48bw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Simple.Elements.MovementModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Simple.Elements.MovementModifier.html",
+          "hash": "ERv2b87VTUOrrOTNpg3d3w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Simple.Elements.PathProgress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Simple.Elements.PathProgress.html",
+          "hash": "wCpUkLCLMjIZXn1ePS1LpA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Simple.Elements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Simple.Elements.html",
+          "hash": "SEb6H9dZLWLCIwlTcB8Pvg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Simple.SimpleAgent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Simple.SimpleAgent.html",
+          "hash": "FxXYMk0zFT4x9c5C/hy7Tw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Simple.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Simple.html",
+          "hash": "b0eNytrO8lqmrj6KsHfbUA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Surfaces.Edge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Surfaces.Edge.html",
+          "hash": "BwYWcubv97caXqrarvmCDQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Surfaces.Face.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Surfaces.Face.html",
+          "hash": "9Xtwr0ZqMqmwLJ208zMumQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Surfaces.FacesByMagnitudeRangeComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Surfaces.FacesByMagnitudeRangeComparer.html",
+          "hash": "Gh3eDEIpYiti4rWMSjBMFw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Surfaces.NavigationSurface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Surfaces.NavigationSurface.html",
+          "hash": "7eSQ4l2oDoFhL/ArX3U5mg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Surfaces.SafeAccess.IImmutableFace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Surfaces.SafeAccess.IImmutableFace.html",
+          "hash": "qIn/seFqoihRi5G9F2lINw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Surfaces.SafeAccess.SurfaceImmutableRaycastHit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Surfaces.SafeAccess.SurfaceImmutableRaycastHit.html",
+          "hash": "roAt09IKt7Y3HNwLQx9Ytw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Surfaces.SafeAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Surfaces.SafeAccess.html",
+          "hash": "GIYDpoLTKSeV8si54rZ7xg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Surfaces.SurfaceRaycastHit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Surfaces.SurfaceRaycastHit.html",
+          "hash": "lJh2tOwjh7SID4K2y3QCiA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Surfaces.Usage-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Surfaces.Usage-1.html",
+          "hash": "o8KyK1sydHPk5AG2oVnttw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Surfaces.UsageTrackingObject-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Surfaces.UsageTrackingObject-1.html",
+          "hash": "FuAb/uxv/W2Y5N2gAss71g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Surfaces.Vertex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Surfaces.Vertex.html",
+          "hash": "C2VHtUsDzZwJf1fx8ev1BQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Surfaces.VertexByPositionComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Surfaces.VertexByPositionComparer.html",
+          "hash": "/SZRT95FS4+HwTuJ5UNq/g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Surfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Surfaces.html",
+          "hash": "XMpxNJkxD3fnjaPwKTpukw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Utilities.ChannelUnwrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Utilities.ChannelUnwrapper.html",
+          "hash": "6v7DdkMhJveswjMNqOSw9A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Utilities.FaceAStar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Utilities.FaceAStar.html",
+          "hash": "tVcEkQHWJWqRaShDKeoCNQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Utilities.FaceStarUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Utilities.FaceStarUnit.html",
+          "hash": "2UVhFKbpq2txieExw64zZA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Utilities.Funnel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Utilities.Funnel.html",
+          "hash": "q0CH2Gy5iOejBAkRCYxEag=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Utilities.ICommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Utilities.ICommand.html",
+          "hash": "Pqv6ZhNzO2at4HzS5tzVww=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.Utilities.html",
+          "hash": "s1v0TCK9fc3garsawAs+hw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlchemyBow.Navigation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlchemyBow.Navigation.html",
+          "hash": "LpnaYdXLV/Sslo6u67eztQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "qLVyeYtknnBbYZ/pYW6g5Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/building_a_surface.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/building_a_surface.html",
+          "hash": "LxfGV7h6v+SG6egYa51Mrw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/building_a_surface/bake_from_geometry.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/building_a_surface/bake_from_geometry.html",
+          "hash": "hq+b5gYJOSHQnWJLAiBGUw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/building_a_surface/debugging_holders.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/building_a_surface/debugging_holders.html",
+          "hash": "pVNV4+SAlp9jEVp5QMEx3Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/building_a_surface/how_it_works.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/building_a_surface/how_it_works.html",
+          "hash": "bdwV3dBJ5zgPD57sF6EB0w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/editing_areas.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/editing_areas.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/editing_layers.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/editing_layers.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/faces_connection_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/faces_connection_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/faces_connection_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/faces_connection_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/faces_connection_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/faces_connection_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/faces_connection_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/faces_connection_4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/faces_connection_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/faces_connection_5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/faces_edges_vertices.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/faces_edges_vertices.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/faces_holder.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/faces_holder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/system_debug_settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/system_debug_settings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "7swlaaYns5hsB2GRCL5YSA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/main_components.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/main_components.html",
+          "hash": "h3O32u6iPecWdYOXtjVoBQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/main_components/alchemy_navigation_system.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/main_components/alchemy_navigation_system.html",
+          "hash": "goq+LQpqdEgxrTsKyugQOw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/main_components/faces_holder.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/main_components/faces_holder.html",
+          "hash": "JPy/yVjE7cPBYrI/eJoOLQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/main_components/movement_modifier.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/main_components/movement_modifier.html",
+          "hash": "nDn4JUeBEXMIbyPlGWef6Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/main_components/simple_agent.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/main_components/simple_agent.html",
+          "hash": "hZFr18nYWo7ogaChdBqpLw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "fB35wXhy6mN1OETz2MF8Iw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 12,
+          "skipped_file_count": 12
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 70,
+          "skipped_file_count": 70
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

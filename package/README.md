@@ -1,5 +1,5 @@
 #AlchemyNavigation
-AlchemyNavigation package is a personal project that implements a 3D navigation system for Unity.
+AlchemyNavigation package implements a 3D navigation system for Unity.
 
 ### Key features:
 * An editor toolkit for building navigation meshes
